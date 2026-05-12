@@ -1,15 +1,23 @@
+# Bayesian Optimization Challenge
+
 Here is the draft content for your GitHub README.md file:
 Black-Box Optimization (BBO) Capstone Project
-1. Project Overview
-This capstone project is a simulated Black-Box Optimization (BBO) challenge, mirroring real-world machine learning problems where function evaluations are costly, time-consuming, or opaque. The core task involves navigating a set of unknown mathematical functions (black boxes) to identify their global maxima with limited information.
-Overall Goal and Relevance: The primary goal is to apply intelligent search strategies to find the maximum output for eight distinct black-box functions. This is highly relevant in real-world ML tasks such as:
+
+## Project Overview
+This capstone project is a simulated Black-Box Optimization (BBO) challenge, mirroring real-world machine learning problems where function evaluations are costly, time-consuming, or opaque. ThGFe core task involves navigating a set of unknown mathematical functions (black boxes) to identify their global maxima with limited information.
+
+### Overall Goal and Relevance
+The primary goal is to apply intelligent search strategies to find the maximum output for eight distinct black-box functions. This is highly relevant in real-world ML tasks such as:
 •Hyperparameter Optimization: Tuning complex model parameters where the objective function (e.g., validation accuracy) is a black box.
-•Drug Discovery: Searching for compounds with optimal properties, where testing each compound is expensive.
-•Robotics: Optimizing control parameters for robots based on real-world performance feedback.
+- Drug Discovery: Searching for compounds with optimal properties, where testing each compound is expensive.
+- Robotics: Optimizing control parameters for robots based on real-world performance feedback.
+
 The high-level idea is to balance exploring new, uncertain regions of the search space with exploiting known promising areas to efficiently converge on the highest possible function value.
-Career Support: This project provides invaluable experience in iterative problem-solving,
-data-driven decision-making under uncertainty, and strategic resource allocation (limited queries). These are critical skills for any data scientist or ML engineer, strengthening my ability to approach complex, real-world optimization challenges and communicate technical strategies effectively.
-2. Inputs and Outputs
+
+### Career Support
+This project provides invaluable experience in iterative problem-solving,data-driven decision-making under uncertainty, and strategic resource allocation (limited queries). These are critical skills for any data scientist or ML engineer, strengthening my ability to approach complex, real-world optimization challenges and communicate technical strategies effectively.
+
+## Inputs and Outputs
 The interaction with each black-box function involves sending a query (input x) and receiving an output (y).
 •Inputs (Queries): Each query consists of a multi-dimensional numerical
 vector x.  Format: A space-separated string of floating-point numbers, e.g., 0.123456 - 0.654321. *
